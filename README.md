@@ -1,39 +1,37 @@
-# Vue3 + Express + mySql 简单的增删改查学习
+# Vue3 + Express + MySQL
 
 #### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+```
+入门级别的 Vue3 + Express + MySQL的结合，
+使用Express 框架实现了Api接口，
+使用vue3作为ui框架。
+```
 
 #### 软件架构
-软件架构说明
+1. node 文件夹存放的是 Express 源码
+2. vue 文件夹存放的是 vue3 源码
+3. nodejs.sql 数据库文件
+4. Node版本 20.10.0
+5. 接口文档使用(morgan)
+```
+修改文档后执行：apidoc -i. -o apidoc4. apidoc -i. -o apidoc
+```
+#### 安装教程 --> 后端安装启动
+1.  将 nodejs.sql 导入数据库
+2.  下载node包指令 （npm install 或 npm i）
+3.  运行node包 （npm run start）
+![node启动成功图](./vue/public/git_img/node_启动成功.png)
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
+#### 安装教程 --> 前端安装启动
+1.  下载vue包指令 （npm install 或 npm i）
+2.  启动 （npm run dev）
+![vue启动成功图](./vue/public/git_img/vue_启动成功.png)
 #### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+```
+登录账号：admin
+登录密码：123456
+```
+接口文档：http://localhost:3000/apidoc (后端运行后)
+![api接口文档图](./vue/public/git_img/api.png)
 
 
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
